@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OOPDemo.FunctionShadowingDemo</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FunctionOverloadingDemo.cs" />
+    <Compile Include="FunctionOverridingDemo.cs" />
+    <Compile Include="FunctionShadowingDemo.cs" />
+    <Compile Include="HybridInheritanceDemo.cs" />
     <Compile Include="MobilePhone.cs" />
+    <Compile Include="MultilevelinheritanceDemo.cs" />
+    <Compile Include="MyMath.cs" />
+    <Compile Include="NOKIA1100.cs" />
     <Compile Include="NOKIA1400.cs" />
+    <Compile Include="NOKIA2700.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
