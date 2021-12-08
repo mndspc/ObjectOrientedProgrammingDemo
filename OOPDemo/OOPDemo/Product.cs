@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPDemo
 {
-    class Product
+   internal class Product
     {
         private int proCode;
         private string proName;
